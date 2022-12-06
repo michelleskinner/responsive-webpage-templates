@@ -1,0 +1,15 @@
+    #wrapper {
+      max-width: 1200px;
+    }
+
+    #early-left {
+      position: sticky;
+      top: 0px;
+      height: 100vh;
+    }
+
+    @media (min-width: 768px) {
+      #early-left {
+        width: 200px;
+      }
+    }
