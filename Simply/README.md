@@ -1,6 +1,12 @@
 Easy Layout
 Reponsive layout with a center content column and left and right columns (for nav and additional content) depending on screen width.
 
+Areas:
+Header
+Left (nav) and right (additional) sidebars
+Content
+Footer
+
 Small screens (mobile first):
 All elements are at full width.
 Nav at top

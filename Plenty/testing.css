@@ -1,0 +1,54 @@
+    /* X-Small devices (portrait phones, less than 576px)
+     No media query for `xs` since this is the default in Bootstrap */
+    #early-header::before {
+      content: "XS\nSmall devices (landscape phones, 576px and up)\n";
+      white-space: pre-wrap;
+      font-size: 3rem;
+    }
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+      #early-header::before {
+        content: "SM\nSmall devices (landscape phones, 576px and up)\n";
+        white-space: pre-wrap;
+        font-size: 3rem;
+      }
+    }
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+      #early-header::before {
+        content: "MD\nMedium devices (tablets, 768px and up)\n";
+        white-space: pre-wrap;
+        font-size: 3rem;
+      }
+    }
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      #early-header::before {
+        content: "LG\nLarge devices (desktops, 992px and up)\n";
+        white-space: pre-wrap;
+        font-size: 3rem;
+
+      }
+    }
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+      #early-header::before {
+        content: "XL\nX-Large devices (large desktops, 1200px and up)\n";
+        white-space: pre-wrap;
+        font-size: 3rem;
+      }
+    }
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+      #early-header::before {
+        content: "XX\nXX-Large devices (larger desktops, 1400px and up)\n";
+        font-size: 3rem;
+      }
+    }
+body {background-color:black;}
+#early-left{background-color:red};
+#wrapper-right{background-color:blue;}
+#early-header{background-color:aliceblue;}
+#early-content{background-color:violet;}
+#early-right{background-color:magenta;}
+#early-footer{background-color:purple;}
